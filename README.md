@@ -1,74 +1,78 @@
-# React-Native-Projects
+# My React Native Projects
 
-This is a collection of all react native projects I've made. 
-The links lead to individual github repositories
+This repository serves as a curated portfolio for my array of React Native projects. 
+Each project/ template is linked to its respective GitHub repository.
 
-## A. Projects
+## Projects
 
-#### Career Suggestor using Personality Test @ Smart India Hackathon 2020 
+### 1. Career Compass: EQ-Personality Mapping @ Smart India Hackathon 2020 
 
-An app that takes an EQ test and suggests career options based on the personality type of the user
-
-Used: Machine Learning
-React Native
-MongoDB Atlas
-
-https://github.com/nirali25parekh/sih-app-2020
-
-#### Movie Buff App
-Use of react-navigation: react-navigation-tabs, react-navigation-stack
-Use of API: moviedb.org
-
-https://github.com/nirali25parekh/movie-buff-app
-
-#### Inventory management 
-
-Unicode 2019 - 2020 project Inventory Management
-
-https://github.com/nirali25parekh/inventory-management-rn
-
-#### Grey Bazaar
-
-https://github.com/nirali25parekh/GreyBazaar
+Empower your career journey with this intuitive app that evaluates your emotional intelligence through an EQ test and intelligently recommends career paths tailored to your unique personality profile
+- Backend: Flask
+- Frontend: React Native
+- pandas for data manipulation
+- API: Reddit 
+- [Link](https://github.com/nirali25parekh/sih-app-2020)
 
 
-## B. Templates
+### 2. Grey Bazaar
+**created as a freelance project for the startup GreyBazaar**
+A two-way digital marketplace platform, Grey Bazaar seamlessly connects buyers and sellers in the garment industry
+- Distinct user profiles for buyers and sellers
+- Buyer-seller recommendation system
+- Real-time market analytics
+- Analytics dashboard: for monitoring spending and order history
+- Order Management: to manage orders, track inventory, and update product availability.
+- A messaging system for direct communication between buyers and sellers to discuss and negotiate.
+- [Link](https://github.com/nirali25parekh/GreyBazaar)
 
-#### Authentication Template
-Authentication functionality of users with firebase as a BaAs (Backend as a service)
-This functionality can be merged wih other features in an app.
-In this app,
-SignIn with email and password available
-Google SignIn option available
 
-https://github.com/nirali25parekh/firebase-auth-react-native 
+### 3. Inventory management  (Unicode 2020-21 project)
+An application designed to streamline inventory management for easy tracking and managing inventory. 
+- Real-Time Inventory Tracking with updates as items are added, sold, or moved.
+- Purchase Order Management: Create, track, and manage purchase orders directly within the app.
+- Barcode Scanning for quick item identification and management.
+- Data Analytics and Reporting on inventory trends, sales patterns, and order history.
+- [Link](https://github.com/nirali25parekh/inventory-management-rn)
 
-#### Maps Interface
 
-A simple app that lets users search for locations using google map
+<br/>
 
-https://github.com/nirali25parekh/map-project
+## Templates / Boilerplates (focus is on functionality rather than looks)
 
-#### Signup Login Form 
+### 1. Authentication Template
+Template for user access and auth using Firebase as a backend
 
-https://github.com/nirali25parekh/signup-login-react-native 
+- Guided steps for new users for registration and login
+- Options for username/password and social media integrations (Facebook, Google, etc.)
+- Implementing industry-standard security practices for user data protection
+- [Link](https://github.com/nirali25parekh/firebase-auth-react-native)
 
-#### Navigation 
+### 2. List Management
+Template for management and efficient rendering of lists of data
+- API calls from: moviedb.org
+- Infinite Scrolling implemented using FlatList
+- Dynamic Data Loading as the user scrolls through the list
+- react-navigation: tabs and stacks
+- [Link](https://github.com/nirali25parekh/movie-buff-app)
 
-React-navigation is used for:
+### 3. Maps Interface
 
-Left side navigation drawer.
-Bottom tabs navigation
-Home Page
-Login Page
-SignUp Page
+Template for location-based services (uses Google API). 
+- Utilize map views for user interaction and location visualization.
+- Real-time GPS tracking for accurate user location services.
+- Mark and customize points of interest on the map.
+- Directions and route planning for easy navigation.
+- [Link](https://github.com/nirali25parekh/map-project)
 
-https://github.com/nirali25parekh/ready-navigation-react-native
+### 4. Navigation 
 
-#### UniMusic
-dynamic searching of music from list
+Template providing a seamless and intuitive in-app navigation experience, optimized for both iOS and Android.
+- Bottom Tab Navigation
+- Slide-out drawer menu
+- Stack Navigation
+- [Link](https://github.com/nirali25parekh/ready-navigation-react-native)
 
-https://github.com/nirali25parekh/UniMusic 
 
 
 
